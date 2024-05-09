@@ -5,7 +5,7 @@ from ml import run_ml
 def main():
     st.title('자동차 가격 예측 앱!')
     
-    menu = ['Home', 'EDA', 'ML']
+    menu = ['홈', '통계', '예측']
     
     choice = st.sidebar.selectbox('메뉴', menu)
     
